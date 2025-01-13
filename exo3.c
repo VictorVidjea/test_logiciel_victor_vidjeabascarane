@@ -57,10 +57,10 @@ char* visualisation(float nombre_floatant) {
 }
 void test_visualisation() {
     // Nombre à tester
-    float test_value = 123.234432;
+    float test_value = 1.125;
 
     // Résultat attendu (IEEE 754 formaté)
-    const char* expected_output = "0 - 10000101 - 11101101111001101110100";
+    const char* expected_output = "0 - 01111111 - 00100000000000000000000";
 
     // Appel de la fonction visualisation
     char* result = visualisation(test_value);

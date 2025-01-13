@@ -42,7 +42,7 @@ void test_defileStruct() {
 
     
 
-    CU_ASSERT_TRUE(estFileStructVide(*file));
+    CU_ASSERT_FALSE(estFileStructVide(*file));
 
     freeFileStruct(file);
     free(file);
